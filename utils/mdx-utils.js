@@ -12,7 +12,7 @@ export const getPosts = async () => {
 
 export const getPostBySlug = async (id) => {
 
-   const {data} = await api.get(`/post?id=eq.${id}`)
+    const { data } = await api.get(`/post?id=eq.${id}`);
 
     return {}
 }
